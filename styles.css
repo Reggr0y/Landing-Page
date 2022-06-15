@@ -1,6 +1,8 @@
 body {
     font-family: Overseer;
     background-color: #0066b1;
+    display: flex;
+    flex-direction: column;
 }
 
 li {
@@ -62,15 +64,20 @@ h2 {
 
 .vt-products {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 4px; 
     text-align: center;
 }
 
+.products {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+}
+
 .vt-products img {
-    width: 400px;
+    width: 200px;
     border: #fff773 solid 3px;
 }
 
