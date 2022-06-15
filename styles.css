@@ -12,15 +12,22 @@ li {
 a {
     text-decoration: none;
     color: #CBB53E;
+    font-size: 20px;
 }
 
 h1 {
     color: #CBB53E;
+    font-size: 60px;
 }
 
 
 h2 {
     color: #fff773;
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
 }
 
 
@@ -82,12 +89,12 @@ h2 {
 }
 
 .quote {
-    width: 100%;
     background-color: #82a7d6;
     padding: 50px;
     justify-content: center;
     align-items: center;
     border: #fff773 double 5px;
+    margin: 0 auto;
 }
 
 .quote h2 {
