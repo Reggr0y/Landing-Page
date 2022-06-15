@@ -40,6 +40,26 @@ h2 {
     width: 100px;
 }
 
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header-txt{
+    flex: 2 1 0;
+    display: inline;
+    margin: 20px;
+}
+
+.header-img {
+    flex:1;
+    margin: 40px;
+    align-items: center;
+}
+
 .vt-products {
     display: flex;
     flex-wrap: wrap;
@@ -60,6 +80,7 @@ h2 {
     padding: 50px;
     justify-content: center;
     align-items: center;
+    border: #fff773 double 5px;
 }
 
 .quote h2 {
@@ -68,5 +89,5 @@ h2 {
 
 .quote p {
     font-style: italic;
-    text-align: right;
+    text-align: justify;
 }
