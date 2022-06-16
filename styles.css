@@ -111,11 +111,12 @@ header {
 
 .product img {
     width: 200px;
-    border: #fff773 solid 3px;
+    height: 150px;
+    border: #fff773 solid 3px;  
 }
 
 .product p {
-    max-width: 200px;
+    width: 200px;
     text-align: center;
 }
 
@@ -123,7 +124,7 @@ header {
     background-color: #82a7d6;
     padding: 30px;
     border: #fff773 double 5px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .quote h2 {
