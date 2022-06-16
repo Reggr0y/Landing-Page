@@ -135,3 +135,31 @@ header {
     font-style: italic;
     text-align: justify;
 }
+
+.box {
+    display: flex;
+    background-color: #0066b1;
+    margin: auto 50px;
+    padding: 10px;
+    border: #CBB53E solid 3px;
+
+}
+
+.box-txt {
+    flex: 2;
+    padding-left: 50px;
+}
+
+.box-txt h2 {
+    margin-bottom: 0;
+    color: #CBB53E;
+}
+
+.box-txt p {
+    margin-top: 0;
+    color: #CBB53E;
+}
+
+.box-button {
+    flex: 1;
+}
